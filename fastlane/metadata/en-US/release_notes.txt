@@ -1,0 +1,5 @@
+Initial release of Koydo Cambridge IGCSE Mathematics Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

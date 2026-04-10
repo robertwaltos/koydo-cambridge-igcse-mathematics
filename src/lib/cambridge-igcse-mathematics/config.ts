@@ -1,0 +1,45 @@
+// Cambridge IGCSE Mathematics Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM108",
+  slug: "cambridge-igcse-mathematics",
+  name: "Cambridge IGCSE Mathematics",
+  fullName: "IGCSE Maths",
+  alias: "IGCSE Maths",
+  family: "Cambridge IGCSE",
+  category: "School exams",
+  subcategory: "International secondary qualification",
+  country: "Global",
+  region: "Global",
+  languages: ["English + other languages by center"],
+  estimatedAnnualTakers: "large international demand",
+  testingWindow: "Mar/Jun/Nov",
+  schedulePattern: "3 series/year",
+  ageGroup: "14-16",
+  targetUser: "International school student",
+  delivery: "Paper-based",
+  questionTypes: ["Structured response"],
+  adaptivity: "Linear",
+  sections: "2 papers",
+  scoringMode: "A*-G / 9-1",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "math_foundation",
+  uiEngine: "paper_numeric",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Medium",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
